@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en-AE">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>JIBARCO | Enterprise Project Delivery & Advanced Engineering Solutions</title>
+  <meta name="description" content="JIBARCO delivers advanced project delivery, engineering management, and strategic solutions across Saudi Arabia and the GCC region. Experience the future of project delivery.">
+  <meta name="author" content="JIBARCO">
+  <meta name="theme-color" content="#1e3a8a">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jibarco.com/">
+  <meta property="og:site_name" content="JIBARCO">
+  <meta property="og:title" content="JIBARCO - Experience the Future of Project Delivery">
+  <meta property="og:description" content="Driving progress with advanced solutions for all sectors across Saudi Arabia and the GCC.">
+  <meta property="og:image" content="https://img1.wsimg.com/isteam/getty/2204869833">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JIBARCO - Experience the Future of Project Delivery">
+  <meta name="twitter:description" content="Driving progress with advanced solutions for all sectors.">
+  <meta name="twitter:image" content="https://img1.wsimg.com/isteam/getty/2204869833">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="https://img1.wsimg.com/isteam/ip/f11d4350-54f2-4a88-8fb3-b05883519971/blob.png/:/rs=w:60,h:60,m">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://img1.wsimg.com/isteam/ip/f11d4350-54f2-4a88-8fb3-b05883519971/blob.png/:/rs=w:180,h:180,m">
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet (Tailwind CSS based) -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation Bar
+       (Transparent to Solid White on scroll, floating feel with subtle shadow)
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="JIBARCO Home">
+        <img src="https://img1.wsimg.com/isteam/ip/f11d4350-54f2-4a88-8fb3-b05883519971/blob.png/:/rs=h:172,cg:true,m/qt=q:95" alt="JIBARCO Logo" width="48" height="48">
+        <div class="brand-text">
+          <span class="brand-title">JIBARCO</span>
+          <span class="brand-subtitle">Project Delivery</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links in Glass Pill -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">Who We Are</a></li>
+          <li><a href="#services" class="nav-link">What We Do</a></li>
+          <li><a href="#safety" class="nav-link">Safety & Compliance</a></li>
+          <li><a href="#gallery" class="nav-link">Vision</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop Action Buttons (Pill-shaped, 2x horizontal padding) -->
+      <div class="nav-actions">
+        <a href="https://wa.me/966597337289?text=Hello%20JIBARCO%2C%20I%20am%20interested%20in%20your%20services." target="_blank" rel="noopener" class="btn btn-whatsapp" aria-label="Chat on WhatsApp">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12.031 2C6.496 2 2 6.495 2 12.029c0 1.765.46 3.491 1.334 5.006L2 22l5.127-1.344a10.026 10.026 0 0 0 4.904 1.28h.004c5.534 0 10.03-4.496 10.03-10.03 0-2.68-1.043-5.198-2.937-7.091A9.97 9.97 0 0 0 12.031 2zm5.834 14.167c-.244.686-1.42 1.31-1.956 1.393-.522.08-1.205.114-1.94-.121-.446-.143-1.02-.336-1.758-.656-3.094-1.344-5.114-4.492-5.269-4.7-.154-.207-1.258-1.673-1.258-3.19 0-1.517.795-2.264 1.077-2.573.282-.309.615-.386.82-.386.205 0 .41.002.59.011.19.01.444-.072.694.529.257.618.872 2.128.949 2.283.077.154.128.334.026.54-.103.205-.154.333-.308.513-.154.18-.323.402-.462.54-.154.154-.315.322-.136.63.18.309.8 1.32 1.714 2.134 1.176 1.048 2.167 1.373 2.476 1.527.308.154.488.128.668-.077.18-.205.77-0.899.975-1.207.205-.308.41-.257.693-.154.282.103 1.794.846 2.102 1.001.308.154.513.231.59.36.077.129.077.745-.167 1.431z"/>
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle Mobile Menu" aria-expanded="false" id="mobile-menu-trigger">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-drawer-overlay"></div>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 36px;">
+        <img src="https://img1.wsimg.com/isteam/ip/f11d4350-54f2-4a88-8fb3-b05883519971/blob.png/:/rs=h:172,cg:true,m/qt=q:95" alt="JIBARCO Logo" width="44" height="44">
+        <div>
+          <h4 style="font-size: 1.25rem; color: var(--text-heading);">JIBARCO</h4>
+          <span style="font-size: 0.75rem; color: var(--primary); letter-spacing: 1px; text-transform: uppercase; font-weight: 700;">Project Delivery</span>
+        </div>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">Who We Are</a></li>
+        <li><a href="#services" class="mobile-nav-link">What We Do</a></li>
+        <li><a href="#safety" class="mobile-nav-link">Safety & Compliance</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Vision & Projects</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <a href="https://wa.me/966597337289" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%;">Chat on WhatsApp</a>
+      <a href="#contact" class="btn btn-primary" style="width: 100%;">Get in Touch</a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       Hero Section
+       Headline: 72px (7xl), Bold, leading-tight
+       Muted Overlay: black/60
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.7) 0%, rgba(15, 23, 42, 0.6) 50%, rgba(15, 23, 42, 0.95) 100%), url('hero_engineering_bg.jpg');"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <!-- Glassmorphism Badge -->
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Saudi Arabia Vision 2030 Aligned &bull; Enterprise Delivery</span>
+        </div>
+
+        <!-- Hero Headline: 72px (7xl), Bold, leading-tight -->
+        <h1 class="hero-title">
+          Experience the Future of <span class="text-gradient">Project Delivery</span>
+        </h1>
+
+        <!-- Base Body: 18px (lg), Relaxed line-height 1.7 -->
+        <p class="hero-description">
+          Driving progress with advanced turnkey engineering and strategic solutions for all sectors across Saudi Arabia and the GCC region.
+        </p>
+
+        <!-- Fully rounded pill-shaped buttons with 2x horizontal padding -->
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary btn-lg">
+            <span>Explore Solutions</span>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-glass btn-lg">
+            <span>Schedule Consultation</span>
+          </a>
+        </div>
+
+        <!-- Stats Strip: 28px Smooth Rounded Corners with Subtle Blue-tinted Shadow -->
+        <div class="stats-strip">
+          <div class="stat-item">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="150">0</span>
+              <span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="99.8">0</span>
+              <span class="stat-suffix">%</span>
+            </div>
+            <div class="stat-label">Precision Rate</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number-wrapper">
+              <span>24/7</span>
+            </div>
+            <div class="stat-label">Strategic Support</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="100">0</span>
+              <span class="stat-suffix">%</span>
+            </div>
+            <div class="stat-label">Safety & Compliance</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Who We Are / About Section
+       Background: Pure White (#FFFFFF)
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <!-- Small Label: 14px (sm), uppercase, tracking-wide -->
+          <div class="section-tag">Who We Are</div>
+          <!-- Section Title: 48px (5xl), Semibold -->
+          <h2 class="section-title">Innovative Solutions Tailored for Today's Market</h2>
+          
+          <p class="about-highlight">
+            At JIBARCO, we are dedicated to providing innovative solutions that meet the demanding benchmarks of modern infrastructure.
+          </p>
+
+          <p class="about-text">
+            Our focus is on delivering exceptional value through cutting-edge technology, strategic insights, and an unwavering commitment to execution excellence. From complex civil structures to digital transformation, we bridge visionary concepts with measurable real-world outcomes.
+          </p>
+
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <strong>Strategic Planning</strong>
+                <p>Data-driven forecasting and risk-managed execution roadmaps</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <strong>Advanced Engineering</strong>
+                <p>Precision-engineered solutions for high-stakes infrastructure</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <strong>Quality Assurance</strong>
+                <p>Strict international safety protocols and QA/QC certifications</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <strong>Turnkey Delivery</strong>
+                <p>Complete lifecycle oversight from initial design to commissioning</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">
+            <span>Discover Our Approach</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="about-visual reveal reveal-delay-2">
+          <div class="about-card-stack">
+            <img src="https://img1.wsimg.com/isteam/getty/175387739/:/rs=w:740,cg:true,m" alt="JIBARCO Engineering Solutions" loading="lazy">
+            <div class="floating-badge">
+              <div class="floating-badge-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="floating-badge-title">Excellence in Execution</div>
+                <div class="floating-badge-desc">Serving premier industrial & civil clients in Saudi Arabia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Services / What We Do Section
+       Background: Gray-50 (#F9FAFB)
+       Cards: 28px Smooth Rounded Corners, shadow-xl with blue tint
+       ========================================================================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Comprehensive Project Capabilities</h2>
+        <p class="section-desc">
+          Delivering multidisciplinary engineering, advisory, and turnkey delivery services that maximize capital efficiency.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 20h20"></path>
+              <path d="M5 20V8l7-5 7 5v12"></path>
+              <path d="M9 12h6"></path>
+              <path d="M9 16h6"></path>
+            </svg>
+          </div>
+          <!-- Sub-heading: 24px (2xl), Bold -->
+          <h3 class="service-title">Advanced Project Delivery</h3>
+          <p class="service-desc">
+            Turnkey management of complex civil and industrial ventures with real-time progress controls, budget containment, and milestone reliability.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Request Proposal</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Engineering & Construction Management</h3>
+          <p class="service-desc">
+            Expert leadership in design coordination, contractor oversight, procurement advisory, and structural QA/QC for demanding environments.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Explore Engineering</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Strategic Insights & Advisory</h3>
+          <p class="service-desc">
+            Independent techno-economic assessments, feasibility studies, project risk audits, and lifecycle financial analysis to safeguard capital.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Consult an Expert</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Infrastructure Modernization</h3>
+          <p class="service-desc">
+            Upgrading legacy assets into smart, energy-efficient operational hubs outfitted with modern digital sensors and automated controls.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Modernization Roadmap</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Quality & Safety Compliance</h3>
+          <p class="service-desc">
+            Total adherence to Saudi Building Code (SBC), civil defense safety directives, and environmental sustainability mandates at every phase.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Safety Benchmarks</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <h3 class="service-title">Supply Chain & Procurement</h3>
+          <p class="service-desc">
+            Strategic international procurement channels ensuring top-grade materials, specialized heavy equipment, and verified supply partners.
+          </p>
+          <a href="#contact" class="service-link">
+            <span>Procurement Network</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Deep Corporate & Safety Section
+       Background: Blue-900 (#1E3A8A), Accents: Blue-400 (#60A5FA)
+       ========================================================================== -->
+  <section class="corporate-safety-section" id="safety">
+    <div class="container">
+      <div class="corporate-safety-grid">
+        <div class="reveal">
+          <div class="section-tag section-tag-dark">Safety First</div>
+          <h2 class="safety-title">Engineered to Highest GCC & International Standards</h2>
+          <p class="safety-desc">
+            Safety and compliance are deeply embedded into JIBARCO’s operational DNA. Every project phase undergoes rigorous quality gate audits, risk assessments, and environmental impact analyses.
+          </p>
+          <div class="safety-pill-list">
+            <span class="safety-pill">Saudi Building Code (SBC)</span>
+            <span class="safety-pill">ISO 9001:2015 QA/QC</span>
+            <span class="safety-pill">OSHA Safety Compliant</span>
+            <span class="safety-pill">Vision 2030 Sustainability</span>
+            <span class="safety-pill">Zero Incident Philosophy</span>
+          </div>
+        </div>
+
+        <div class="safety-card reveal reveal-delay-2">
+          <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 16px;">Our Safety & Quality Pledge</h3>
+          <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.05rem; line-height: 1.7; margin-bottom: 24px;">
+            "We maintain an uncompromising dedication to the safety of our workforce, the integrity of the built environment, and total transparency with our clients."
+          </p>
+          <div style="display: flex; align-items: center; gap: 16px; border-top: 1px solid rgba(255, 255, 255, 0.15); padding-top: 20px;">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(96, 165, 250, 0.2); color: var(--accent-blue); display: flex; align-items: center; justify-content: center; font-weight: 800;">
+              JB
+            </div>
+            <div>
+              <div style="font-weight: 700; color: #ffffff;">Faisal Salem</div>
+              <div style="font-size: 0.85rem; color: var(--accent-blue);">Executive Leadership &bull; JIBARCO</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Vision & Project Showcase (Gallery)
+       Background: Pure White (#FFFFFF)
+       ========================================================================== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Vision & Portfolio</div>
+        <h2 class="section-title">Explore Our Vision Through Captivating Imagery</h2>
+        <p class="section-desc">
+          A showcase of pioneering engineering, transit corridors, and technology installations delivered across the Kingdom.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs (Pill shaped) -->
+      <div class="gallery-filters reveal reveal-delay-1" role="tablist">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+        <button class="filter-btn" data-filter="technology">Smart Tech</button>
+        <button class="filter-btn" data-filter="engineering">Civil Engineering</button>
+      </div>
+
+      <!-- Gallery Grid: 28px Smooth Rounded Cards -->
+      <div class="gallery-grid">
+        <!-- Item 1 -->
+        <div class="gallery-item reveal reveal-delay-1" data-category="engineering">
+          <img src="https://img1.wsimg.com/isteam/getty/175387739/:/rs=w:740,cg:true,m" alt="High-Rise Structural Engineering" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Civil Engineering</span>
+            <h4 class="gallery-title">High-Rise Structural Framework</h4>
+            <span class="gallery-action">
+              <span>View Fullscreen</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item reveal reveal-delay-2" data-category="infrastructure">
+          <img src="https://img1.wsimg.com/isteam/getty/1292410017/:/rs=w:740,cg:true,m" alt="Modern Highway & Transit Infrastructure" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Infrastructure</span>
+            <h4 class="gallery-title">Modern Transit & Highway Networks</h4>
+            <span class="gallery-action">
+              <span>View Fullscreen</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item reveal reveal-delay-3" data-category="technology">
+          <img src="https://img1.wsimg.com/isteam/getty/2170118461/:/rs=w:740,cg:true,m" alt="Smart City Automation Hub" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Smart Tech</span>
+            <h4 class="gallery-title">Smart City Automation & Telemetry</h4>
+            <span class="gallery-action">
+              <span>View Fullscreen</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item reveal reveal-delay-1" data-category="engineering">
+          <img src="https://img1.wsimg.com/isteam/getty/1415316929/:/rs=w:740,cg:true,m" alt="Industrial Manufacturing Plant" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Civil Engineering</span>
+            <h4 class="gallery-title">Industrial Plant Execution</h4>
+            <span class="gallery-action">
+              <span>View Fullscreen</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item reveal reveal-delay-2" data-category="infrastructure">
+          <img src="https://img1.wsimg.com/isteam/getty/517052680/:/rs=w:740,cg:true,m" alt="Architectural Commercial Center" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Infrastructure</span>
+            <h4 class="gallery-title">Commercial & Municipal Complexes</h4>
+            <span class="gallery-action">
+              <span>View Fullscreen</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-item reveal reveal-delay-3" data-category="technology">
+          <img src="https://img1.wsimg.com/isteam/getty/2093216572/:/rs=w:740,cg:true,m" alt="Sustainable Energy Grid" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Smart Tech</span>
+            <h4 class="gallery-title">Next-Gen Renewable Energy Grid</h4>
+            <span class="gallery-action">
+              <span>View Fullscreen</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+      <img src="" alt="" class="lightbox-img" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Contact, Location & Communication Hub
+       Background: Gray-50 (#F9FAFB)
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Direct Communication</div>
+        <h2 class="section-title">Get in Touch With JIBARCO</h2>
+        <p class="section-desc">
+          Connect directly with our engineering advisory team for project RFPs, feasibility consultations, or partner inquiries.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Card (28px radius, shadow-xl) -->
+        <div class="contact-info-card reveal">
+          <div class="contact-info-header">
+            <h3>Better yet, see us in person!</h3>
+            <p>We welcome clients and technical partners at our regional office in Al Khobar, Saudi Arabia.</p>
+          </div>
+
+          <div class="contact-items-list">
+            <!-- WhatsApp -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2C6.496 2 2 6.495 2 12.029c0 1.765.46 3.491 1.334 5.006L2 22l5.127-1.344a10.026 10.026 0 0 0 4.904 1.28h.004c5.534 0 10.03-4.496 10.03-10.03 0-2.68-1.043-5.198-2.937-7.091A9.97 9.97 0 0 0 12.031 2zm5.834 14.167c-.244.686-1.42 1.31-1.956 1.393-.522.08-1.205.114-1.94-.121-.446-.143-1.02-.336-1.758-.656-3.094-1.344-5.114-4.492-5.269-4.7-.154-.207-1.258-1.673-1.258-3.19 0-1.517.795-2.264 1.077-2.573.282-.309.615-.386.82-.386.205 0 .41.002.59.011.19.01.444-.072.694.529.257.618.872 2.128.949 2.283.077.154.128.334.026.54-.103.205-.154.333-.308.513-.154.18-.323.402-.462.54-.154.154-.315.322-.136.63.18.309.8 1.32 1.714 2.134 1.176 1.048 2.167 1.373 2.476 1.527.308.154.488.128.668-.077.18-.205.77-0.899.975-1.207.205-.308.41-.257.693-.154.282.103 1.794.846 2.102 1.001.308.154.513.231.59.36.077.129.077.745-.167 1.431z"/>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>WhatsApp Direct</h4>
+                <p>
+                  <a href="https://wa.me/966597337289?text=Hello%20JIBARCO%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" style="color: #25d366; font-weight: 700;">
+                    +966 59 733 7289
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Corporate Email</h4>
+                <p>
+                  <a href="mailto:faisal.salem@Jibarco.com" data-copy="faisal.salem@Jibarco.com" title="Click to copy email address">
+                    faisal.salem@Jibarco.com
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-details" style="width: 100%;">
+                <h4>Headquarters</h4>
+                <p>Prince Sultan Street intersection, 10th Street, Al-Khobar Al-Shamalia, Al-Khobar 34428, Saudi Arabia</p>
+                <div class="arabic-address">
+                  شارع الامير سلطان تقاطع، الشارع العاشر، حي الخبر الشمالية، الخبر 34428، السعودية
+                </div>
+              </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="contact-item-row">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Operating Hours <span class="hours-status">&bull; Open 08:00 AM - 05:00 PM</span></h4>
+                <p>Sunday &ndash; Thursday: 08:00 AM &ndash; 05:00 PM (AST)</p>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">Friday & Saturday: Closed</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Maps Embed for Al Khobar -->
+          <div class="map-container">
+            <iframe 
+              src="https://maps.google.com/maps?q=Prince+Sultan+Street,+Al+Khobar,+Saudi+Arabia&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              title="JIBARCO Al Khobar Location" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form Card (28px radius, shadow-xl) -->
+        <div class="contact-form-card reveal reveal-delay-2">
+          <h3 class="form-title">Drop Us a Line</h3>
+          <p class="form-subtitle">Fill out the details below and our team will get back to you within 24 hours.</p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Full Name *</label>
+              <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Eng. Abdullah Al-Otaibi" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Corporate Email Address *</label>
+              <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Project Scope & Requirements *</label>
+              <textarea id="contact-message" name="message" class="form-textarea" placeholder="Describe your project scope, location, timeline, and requirements..." required></textarea>
+            </div>
+
+            <!-- File Upload Dropzone -->
+            <div class="file-attachment-box">
+              <input type="file" id="contact-file" name="attachment" multiple>
+              <label for="contact-file" class="file-attachment-label">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path>
+                </svg>
+                <span>Attach RFP or Technical Specifications (PDF, DOC, ZIP)</span>
+              </label>
+              <div id="file-status" class="file-status-text" style="display: none;"></div>
+            </div>
+
+            <button type="submit" id="contact-submit-btn" class="btn btn-primary" style="width: 100%;">
+              <span>Submit Inquiry</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Newsletter / Stay Updated Section
+       Background: Blue-50 (#EFF6FF)
+       ========================================================================== -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-content reveal">
+        <div class="section-tag" style="margin-bottom: 12px;">Quarterly Brief</div>
+        <h3 class="newsletter-title">Subscribe to JIBARCO Executive Insights</h3>
+        <p class="newsletter-desc">
+          Stay ahead with our research briefs on Saudi infrastructure investments, regulatory updates, and engineering best practices.
+        </p>
+
+        <form id="newsletter-form" class="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your business email address..." required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       Background: Gray-900 (#111827)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" style="margin-bottom: 16px;">
+            <img src="https://img1.wsimg.com/isteam/ip/f11d4350-54f2-4a88-8fb3-b05883519971/blob.png/:/rs=h:172,cg:true,m/qt=q:95" alt="JIBARCO Logo" width="48" height="48">
+            <div class="brand-text">
+              <span class="brand-title" style="font-size: 1.35rem; color: #ffffff;">JIBARCO</span>
+              <span class="brand-subtitle" style="color: var(--accent-blue);">Project Delivery</span>
+            </div>
+          </a>
+          <p>
+            Driving progress with advanced solutions for all industrial, civil, and commercial sectors across Saudi Arabia and the GCC region.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/966597337289" target="_blank" rel="noopener" class="social-icon-btn" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 2C6.496 2 2 6.495 2 12.029c0 1.765.46 3.491 1.334 5.006L2 22l5.127-1.344a10.026 10.026 0 0 0 4.904 1.28h.004c5.534 0 10.03-4.496 10.03-10.03 0-2.68-1.043-5.198-2.937-7.091A9.97 9.97 0 0 0 12.031 2zm5.834 14.167c-.244.686-1.42 1.31-1.956 1.393-.522.08-1.205.114-1.94-.121-.446-.143-1.02-.336-1.758-.656-3.094-1.344-5.114-4.492-5.269-4.7-.154-.207-1.258-1.673-1.258-3.19 0-1.517.795-2.264 1.077-2.573.282-.309.615-.386.82-.386.205 0 .41.002.59.011.19.01.444-.072.694.529.257.618.872 2.128.949 2.283.077.154.128.334.026.54-.103.205-.154.333-.308.513-.154.18-.323.402-.462.54-.154.154-.315.322-.136.63.18.309.8 1.32 1.714 2.134 1.176 1.048 2.167 1.373 2.476 1.527.308.154.488.128.668-.077.18-.205.77-0.899.975-1.207.205-.308.41-.257.693-.154.282.103 1.794.846 2.102 1.001.308.154.513.231.59.36.077.129.077.745-.167 1.431z"/></svg>
+            </a>
+            <a href="mailto:faisal.salem@Jibarco.com" class="social-icon-btn" aria-label="Email Us">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="#home" class="social-icon-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Who We Are</a></li>
+            <li><a href="#services">What We Do</a></li>
+            <li><a href="#safety">Safety & Compliance</a></li>
+            <li><a href="#gallery">Vision Showcase</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Solutions -->
+        <div class="footer-column">
+          <h4>Solutions</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Project Delivery</a></li>
+            <li><a href="#services">Engineering QA/QC</a></li>
+            <li><a href="#services">Strategic Advisory</a></li>
+            <li><a href="#services">Smart Infrastructure</a></li>
+            <li><a href="#services">Safety Compliance</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Summary -->
+        <div class="footer-column">
+          <h4>Head Office</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Al-Khobar, Saudi Arabia</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:faisal.salem@Jibarco.com" style="color: #ffffff;">faisal.salem@Jibarco.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 2C6.496 2 2 6.495 2 12.029c0 1.765.46 3.491 1.334 5.006L2 22l5.127-1.344a10.026 10.026 0 0 0 4.904 1.28h.004c5.534 0 10.03-4.496 10.03-10.03 0-2.68-1.043-5.198-2.937-7.091A9.97 9.97 0 0 0 12.031 2zm5.834 14.167c-.244.686-1.42 1.31-1.956 1.393-.522.08-1.205.114-1.94-.121-.446-.143-1.02-.336-1.758-.656-3.094-1.344-5.114-4.492-5.269-4.7-.154-.207-1.258-1.673-1.258-3.19 0-1.517.795-2.264 1.077-2.573.282-.309.615-.386.82-.386.205 0 .41.002.59.011.19.01.444-.072.694.529.257.618.872 2.128.949 2.283.077.154.128.334.026.54-.103.205-.154.333-.308.513-.154.18-.323.402-.462.54-.154.154-.315.322-.136.63.18.309.8 1.32 1.714 2.134 1.176 1.048 2.167 1.373 2.476 1.527.308.154.488.128.668-.077.18-.205.77-0.899.975-1.207.205-.308.41-.257.693-.154.282.103 1.794.846 2.102 1.001.308.154.513.231.59.36.077.129.077.745-.167 1.431z"/></svg>
+              <a href="https://wa.me/966597337289" target="_blank" rel="noopener" style="color: #25d366; font-weight: 600;">+966 59 733 7289</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 JIBARCO. All Rights Reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#home">Privacy Policy</a>
+          <a href="#home">Terms of Service</a>
+          <a href="#contact">Careers</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Floating WhatsApp Quick Launcher
+       ========================================================================== -->
+  <a href="https://wa.me/966597337289?text=Hello%20JIBARCO%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." 
+     target="_blank" 
+     rel="noopener" 
+     class="floating-whatsapp" 
+     aria-label="Direct WhatsApp Message">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 2C6.496 2 2 6.495 2 12.029c0 1.765.46 3.491 1.334 5.006L2 22l5.127-1.344a10.026 10.026 0 0 0 4.904 1.28h.004c5.534 0 10.03-4.496 10.03-10.03 0-2.68-1.043-5.198-2.937-7.091A9.97 9.97 0 0 0 12.031 2zm5.834 14.167c-.244.686-1.42 1.31-1.956 1.393-.522.08-1.205.114-1.94-.121-.446-.143-1.02-.336-1.758-.656-3.094-1.344-5.114-4.492-5.269-4.7-.154-.207-1.258-1.673-1.258-3.19 0-1.517.795-2.264 1.077-2.573.282-.309.615-.386.82-.386.205 0 .41.002.59.011.19.01.444-.072.694.529.257.618.872 2.128.949 2.283.077.154.128.334.026.54-.103.205-.154.333-.308.513-.154.18-.323.402-.462.54-.154.154-.315.322-.136.63.18.309.8 1.32 1.714 2.134 1.176 1.048 2.167 1.373 2.476 1.527.308.154.488.128.668-.077.18-.205.77-0.899.975-1.207.205-.308.41-.257.693-.154.282.103 1.794.846 2.102 1.001.308.154.513.231.59.36.077.129.077.745-.167 1.431z"/>
+    </svg>
+    <div class="floating-whatsapp-tooltip">Chat with JIBARCO</div>
+  </a>
+
+  <!-- ==========================================================================
+       Cookie Banner
+       ========================================================================== -->
+  <div class="cookie-banner" id="cookie-banner">
+    <h4 class="cookie-title">This website uses cookies.</h4>
+    <p class="cookie-text">
+      We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.
+    </p>
+    <div class="cookie-actions">
+      <button class="btn-cookie-accept" id="cookie-accept">Accept</button>
+      <button class="btn-cookie-decline" id="cookie-decline">Decline</button>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
